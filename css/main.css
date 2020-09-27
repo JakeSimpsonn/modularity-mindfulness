@@ -34,3 +34,23 @@ main {
   grid-area: figure;
   grid-template-columns: 1fr 1fr 1fr
 }
+
+nav {
+  z-index: 3;
+  grid-column: 2;
+  grid-row: 1;
+}
+
+ul {
+  display: flex;
+  margin: 0;
+  padding-top: 0;
+  padding-right: 3rem;
+  justify-content: flex-end;
+}
+
+ul li {
+  display: inline;
+  padding: .75rem;
+  text-decoration: none;
+}
