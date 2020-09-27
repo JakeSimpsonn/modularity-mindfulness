@@ -54,3 +54,19 @@ ul li {
   padding: .75rem;
   text-decoration: none;
 }
+
+/*************** Content /***************/
+
+article {
+  text-align: center;
+}
+
+/*************** Cards /***************/
+
+figure {
+  margin: 0;
+}
+
+footer {
+  text-align: center;
+}
