@@ -18,10 +18,19 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 1.5rem;
 }
 
 img {
   display: block;
   width: 100%;
+}
+
+/*************** Banner /***************/
+
+main {
+  display: grid;
+  column-gap: 1rem;
+  grid-area: figure;
+  grid-template-columns: 1fr 1fr 1fr
 }
