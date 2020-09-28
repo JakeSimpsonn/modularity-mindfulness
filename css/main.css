@@ -199,3 +199,62 @@ footer {
   }
 
 }
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    line-height: 1.5;
+    font-size: 120%;
+  }
+
+  h1,
+  p {
+    margin: 0 0 1.5rem;
+  }
+
+  h1 {
+    margin-bottom: .5em;
+    font-size: 1.7;
+  }
+
+  h2 {
+    margin: .4em 0 0;
+    font-size: 1.7rem;
+  }
+
+  h3 {
+    font-size: 1.3em;
+  }
+
+  li a {
+    font-size: 1em;
+  }
+
+  a {
+    font-size: .6em
+  }
+
+  .intro {
+    margin: 0 12em;
+  }
+
+  .intro-p {
+    margin-bottom: .5em;
+    font-size: .9em;
+  }
+
+  .engheader{
+    font-size: .6em;
+  }
+
+  .rule-bottom {
+    margin-bottom: .5em;
+  }
+
+  .description {
+    font-size: .8em;
+  }
+
+
+
+}
