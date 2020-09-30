@@ -88,13 +88,19 @@ footer {
   text-align: center;
 }
 
-.footersmall {
+footer small {
   padding: 1.5em;
+  margin-top: 0;
+}
+
+.footersmall {
+  padding: 1.5rem;
   margin-top: 0;
 }
 
 .engheader {
   font-size: 1.125rem;
+  font-weight: bold;
 }
 
 .intro {
@@ -172,7 +178,7 @@ footer {
 
   .intro-p {
     margin-bottom: .5em;
-    font-size: .9em;
+    font-size: 1rem;
   }
 
   .area-1 {
@@ -182,7 +188,7 @@ footer {
   }
 
   .rule-bottom {
-  margin: 0 0 2em;
+    margin: 0 0 2em;
   }
 
   .description {
@@ -214,7 +220,7 @@ footer {
 
   h1 {
     margin-bottom: .5em;
-    font-size: 1.7;
+    font-size: 1.7em;
   }
 
   h2 {
@@ -231,7 +237,7 @@ footer {
   }
 
   a {
-    font-size: .6em
+    font-size: .6em;
   }
 
   .intro {
@@ -243,7 +249,7 @@ footer {
     font-size: .9em;
   }
 
-  .engheader{
+  .engheader {
     font-size: .6em;
   }
 
@@ -254,7 +260,5 @@ footer {
   .description {
     font-size: .8em;
   }
-
-
 
 }
